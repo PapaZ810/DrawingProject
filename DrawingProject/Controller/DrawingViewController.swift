@@ -10,7 +10,9 @@ import UIKit
 
 public class DrawingViewController: UIViewController
 {
-
+    @IBOutlet weak var DrawButton: UIButton!
+    
+    
     public override func viewDidLoad() -> Void
     {
         super.viewDidLoad()
