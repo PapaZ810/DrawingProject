@@ -28,7 +28,7 @@
                                     <segue destination="h6Y-yt-bmD" kind="show" id="rs8-D1-b5d"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FTa-iK-UMF">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FTa-iK-UMF" customClass="DrawingView" customModule="DrawingProject" customModuleProvider="target">
                                 <rect key="frame" x="44" y="44" width="288" height="577"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.77598769430000003" blue="0.7128834208" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
