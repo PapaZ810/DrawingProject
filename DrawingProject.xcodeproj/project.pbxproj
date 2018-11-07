@@ -13,6 +13,7 @@
 		CD2BE8DB218B74AE008BF85F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2BE8DA218B74AE008BF85F /* Assets.xcassets */; };
 		CD2BE8DE218B74AE008BF85F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2BE8DC218B74AE008BF85F /* LaunchScreen.storyboard */; };
 		CD2BE8E9218B7D1B008BF85F /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2BE8E8218B7D1B008BF85F /* DrawingView.swift */; };
+		CDDA778F219371EB0059B1FE /* DrawingCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDA778E219371EB0059B1FE /* DrawingCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CD2BE8DD218B74AE008BF85F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD2BE8DF218B74AE008BF85F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD2BE8E8218B7D1B008BF85F /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		CDDA778E219371EB0059B1FE /* DrawingCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				CD2BE8D5218B74AC008BF85F /* DrawingViewController.swift */,
+				CDDA778E219371EB0059B1FE /* DrawingCollectionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				CD2BE8E9218B7D1B008BF85F /* DrawingView.swift in Sources */,
 				CD2BE8D6218B74AC008BF85F /* DrawingViewController.swift in Sources */,
 				CD2BE8D4218B74AC008BF85F /* AppDelegate.swift in Sources */,
+				CDDA778F219371EB0059B1FE /* DrawingCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
