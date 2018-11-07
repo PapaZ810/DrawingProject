@@ -60,7 +60,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="artIdentifier" id="AvL-RG-Hse">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="artIdentifier" id="AvL-RG-Hse" customClass="DrawingCell" customModule="DrawingProject" customModuleProvider="target">
                                 <rect key="frame" x="87.666666666666671" y="0.0" width="200" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
@@ -81,6 +81,10 @@
                                     </subviews>
                                 </view>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="drawingImage" destination="246-f0-BcU" id="0lq-2E-iCJ"/>
+                                    <outlet property="drawingLabel" destination="a0c-Wd-4Pb" id="aBf-lc-0N3"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>

@@ -14,6 +14,7 @@
 		CD2BE8DE218B74AE008BF85F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2BE8DC218B74AE008BF85F /* LaunchScreen.storyboard */; };
 		CD2BE8E9218B7D1B008BF85F /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2BE8E8218B7D1B008BF85F /* DrawingView.swift */; };
 		CDDA778F219371EB0059B1FE /* DrawingCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDA778E219371EB0059B1FE /* DrawingCollectionViewController.swift */; };
+		CDDA7791219381A30059B1FE /* DrawingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDA7790219381A30059B1FE /* DrawingCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CD2BE8DF218B74AE008BF85F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD2BE8E8218B7D1B008BF85F /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		CDDA778E219371EB0059B1FE /* DrawingCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingCollectionViewController.swift; sourceTree = "<group>"; };
+		CDDA7790219381A30059B1FE /* DrawingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				CD2BE8D7218B74AC008BF85F /* Main.storyboard */,
 				CD2BE8DC218B74AE008BF85F /* LaunchScreen.storyboard */,
 				CD2BE8E8218B7D1B008BF85F /* DrawingView.swift */,
+				CDDA7790219381A30059B1FE /* DrawingCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				CD2BE8E9218B7D1B008BF85F /* DrawingView.swift in Sources */,
 				CD2BE8D6218B74AC008BF85F /* DrawingViewController.swift in Sources */,
 				CD2BE8D4218B74AC008BF85F /* AppDelegate.swift in Sources */,
+				CDDA7791219381A30059B1FE /* DrawingCell.swift in Sources */,
 				CDDA778F219371EB0059B1FE /* DrawingCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
