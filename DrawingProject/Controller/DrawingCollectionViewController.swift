@@ -91,7 +91,7 @@ public class DrawingCollectionViewController: UICollectionViewController
     {
         let drawingCell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! DrawingCell
     
-        drawingCell.backgroundColor = .green
+        drawingCell.backgroundColor = .cyan
         drawingCell.drawingImage.image = creativeCS[indexPath.row]
         drawingCell.drawingLabel.text = labels[indexPath.row]
     
