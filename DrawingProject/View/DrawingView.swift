@@ -56,7 +56,7 @@ public class DrawingView: UIView {
     private func drawSquare() -> Void
     {
         let pogo = UIBezierPath()
-        UIColor.magenta.setFill()
+        UIColor.cyan.setFill()
         pogo.move(to: CGPoint(x: 10, y: 10))
         pogo.addLine(to: CGPoint(x: 110, y: 10))
         pogo.addLine(to: CGPoint(x: 110, y: 110))
